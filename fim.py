@@ -1,3 +1,4 @@
+import datetime
 def insert_persian_data(last_data, price, date):
     
     name = last_data[1]
@@ -17,3 +18,5 @@ def insert_persian_data(last_data, price, date):
     a=[]
     for i in range(len(d)):
         a.append(d[i])
+    
+    return a
